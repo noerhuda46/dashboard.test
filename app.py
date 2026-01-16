@@ -12,9 +12,13 @@ import pandas as pd
 # Handle potential import error for plotly
 try:
     import plotly.graph_objects as go
+    import plotly.express as px
+    PLOTLY_AVAILABLE = True
 except ImportError:
-    print("Error: plotly is not installed. Please install it using 'pip install plotly'")
-    raise
+    print("Warning: plotly is not installed. Some visualizations may not work. Install it using 'pip install plotly'")
+    PLOTLY_AVAILABLE = False
+    go = None
+    px = None
 
 from constants import *
 from utils import *
@@ -372,8 +376,11 @@ if page == "📊 Dashboard":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            fig_trend = create_trend_chart(df_trend)
-            st.plotly_chart(fig_trend, width='stretch')
+            if PLOTLY_AVAILABLE:
+                fig_trend = create_trend_chart(df_trend)
+                st.plotly_chart(fig_trend, width='stretch')
+            else:
+                st.warning("Grafik trend tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
         
         with col2:
             st.markdown("**📊 Trend Interpretation:**")
@@ -424,8 +431,11 @@ if page == "📊 Dashboard":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            fig_heatmap = create_preference_heatmap(df_preference)
-            st.plotly_chart(fig_heatmap, use_container_width=True)
+            if PLOTLY_AVAILABLE:
+                fig_heatmap = create_preference_heatmap(df_preference)
+                st.plotly_chart(fig_heatmap, use_container_width=True)
+            else:
+                st.warning("Heatmap preferensi tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
         
         with col2:
             st.markdown("**🔍 Key Insights:**")
@@ -482,12 +492,15 @@ if page == "📊 Dashboard":
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        fig_projection = create_revenue_projection(
-            metrics['total_revenue'],
-            20,
-            6
-        )
-        st.plotly_chart(fig_projection, use_container_width=True)
+        if PLOTLY_AVAILABLE:
+            fig_projection = create_revenue_projection(
+                metrics['total_revenue'],
+                20,
+                6
+            )
+            st.plotly_chart(fig_projection, use_container_width=True)
+        else:
+            st.warning("Grafik proyeksi tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
     
     with col2:
         st.markdown("**📊 Projection Details:**")
@@ -511,8 +524,11 @@ elif page == "📈 Analisis Trend":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            fig = create_trend_chart(df_trend)
-            st.plotly_chart(fig, width='stretch')
+            if PLOTLY_AVAILABLE:
+                fig = create_trend_chart(df_trend)
+                st.plotly_chart(fig, width='stretch')
+            else:
+                st.warning("Grafik trend tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
         
         with col2:
             st.markdown("### 📊 Interpretasi Trend")
@@ -544,8 +560,11 @@ elif page == "❤️ Preferensi Customer":
     if df_pref.empty:
         st.error("Data preferensi tidak tersedia")
     else:
-        fig = create_preference_heatmap(df_pref)
-        st.plotly_chart(fig, width='stretch')
+        if PLOTLY_AVAILABLE:
+            fig = create_preference_heatmap(df_pref)
+            st.plotly_chart(fig, width='stretch')
+        else:
+            st.warning("Heatmap preferensi tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
         
         st.markdown("---")
         st.markdown("### 📊 Top Preferences")
@@ -616,8 +635,11 @@ elif page == "🎯 KPI & Proyeksi":
     df_trans = load_transaction_data()
     if not df_trans.empty:
         metrics = calculate_metrics(df_trans)
-        fig = create_revenue_projection(metrics['total_revenue'], 20, 6)
-        st.plotly_chart(fig, width='stretch')
+        if PLOTLY_AVAILABLE:
+            fig = create_revenue_projection(metrics['total_revenue'], 20, 6)
+            st.plotly_chart(fig, width='stretch')
+        else:
+            st.warning("Grafik proyeksi tidak tersedia karena plotly tidak terinstal. Silakan install dengan 'pip install plotly'")
 
 elif page == "ℹ️ Tentang":
     st.header("ℹ️ Tentang Dashboard")
