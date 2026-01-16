@@ -376,7 +376,7 @@ if page == "📊 Dashboard":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            if PLOTLY_AVAILABLE:
+            if PLOTLY_AVAILABLE and create_trend_chart(df_trend) is not None:
                 fig_trend = create_trend_chart(df_trend)
                 st.plotly_chart(fig_trend, width='stretch')
             else:
@@ -431,7 +431,7 @@ if page == "📊 Dashboard":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            if PLOTLY_AVAILABLE:
+            if PLOTLY_AVAILABLE and create_preference_heatmap(df_preference) is not None:
                 fig_heatmap = create_preference_heatmap(df_preference)
                 st.plotly_chart(fig_heatmap, use_container_width=True)
             else:
@@ -492,7 +492,7 @@ if page == "📊 Dashboard":
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        if PLOTLY_AVAILABLE:
+        if PLOTLY_AVAILABLE and create_revenue_projection(metrics['total_revenue'], 20, 6) is not None:
             fig_projection = create_revenue_projection(
                 metrics['total_revenue'],
                 20,
@@ -524,7 +524,7 @@ elif page == "📈 Analisis Trend":
         col1, col2 = st.columns([2, 1])
         
         with col1:
-            if PLOTLY_AVAILABLE:
+            if PLOTLY_AVAILABLE and create_trend_chart(df_trend) is not None:
                 fig = create_trend_chart(df_trend)
                 st.plotly_chart(fig, width='stretch')
             else:
@@ -560,7 +560,7 @@ elif page == "❤️ Preferensi Customer":
     if df_pref.empty:
         st.error("Data preferensi tidak tersedia")
     else:
-        if PLOTLY_AVAILABLE:
+        if PLOTLY_AVAILABLE and create_preference_heatmap(df_pref) is not None:
             fig = create_preference_heatmap(df_pref)
             st.plotly_chart(fig, width='stretch')
         else:
@@ -635,7 +635,7 @@ elif page == "🎯 KPI & Proyeksi":
     df_trans = load_transaction_data()
     if not df_trans.empty:
         metrics = calculate_metrics(df_trans)
-        if PLOTLY_AVAILABLE:
+        if PLOTLY_AVAILABLE and create_revenue_projection(metrics['total_revenue'], 20, 6) is not None:
             fig = create_revenue_projection(metrics['total_revenue'], 20, 6)
             st.plotly_chart(fig, width='stretch')
         else:
