@@ -462,7 +462,7 @@ if page == "📊 Dashboard":
                 width='stretch'
             )
         else:
-            st.dataframe(df_preference, width='stretch')
+            st.dataframe(df_preference, use_container_width=True)
     
     else:
         st.warning("⚠️ Data preferensi tidak tersedia")
@@ -526,7 +526,7 @@ elif page == "📈 Analisis Trend":
         
         st.markdown("---")
         st.markdown("### 📋 Detail Data")
-        st.dataframe(df_trend, width='stretch')
+        st.dataframe(df_trend, use_container_width=True)
 
 elif page == "❤️ Preferensi Customer":
     st.header("❤️ Analisis Preferensi Customer")
@@ -569,7 +569,7 @@ elif page == "❤️ Preferensi Customer":
             
         st.dataframe(
             sorted_df,
-            width='stretch'
+            use_container_width=True
         )
 
 elif page == "📋 Action Plan":
