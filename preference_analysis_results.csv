@@ -1,0 +1,18 @@
+Produk,Tipe_Kedai,Jumlah_Transaksi,Preference_Pct,Rata_Rata_Revenue
+Bunar,Perorangan,152,74.1,99704.0
+Bunar,Big Cafe,32,15.6,8948125.0
+Bunar,Medium Cafe,21,10.2,5711429.0
+Gunung Puntang,Perorangan,132,77.6,100076.0
+Gunung Puntang,Medium Cafe,22,12.9,6697273.0
+Gunung Puntang,Big Cafe,16,9.4,9375000.0
+Java Halu,Perorangan,100,71.9,100600.0
+Java Halu,Medium Cafe,21,15.1,6340000.0
+Java Halu,Big Cafe,18,12.9,8688889.0
+Parentas,Perorangan,131,64.2,94962.0
+Parentas,Medium Cafe,40,19.6,5892000.0
+Parentas,Big Cafe,33,16.2,8874242.0
+Regional,Big Cafe,13,54.2,4361538.0
+Regional,Medium Cafe,11,45.8,3218182.0
+Taraju,Perorangan,139,72.4,90324.0
+Taraju,Medium Cafe,28,14.6,5480000.0
+Taraju,Big Cafe,25,13.0,8702400.0

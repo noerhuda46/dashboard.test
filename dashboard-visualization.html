@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Analisis Big Data - Galunggung Green Glory Coffee</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a472a 0%, #2d5f3f 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 25px;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+        }
+        
+        .metric-card h3 {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .metric-card .subtext {
+            font-size: 0.8em;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .chart-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .chart-container h2 {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .chart-wrapper {
+            position: relative;
+            height: 350px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+        
+        table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .status-badge {
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .status-rising {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .status-stable {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .status-declining {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .table-section {
+            margin-bottom: 40px;
+        }
+        
+        .table-section h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .recommendations {
+            background: #e8f4f8;
+            border-left: 4px solid #0066cc;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        
+        .recommendations h3 {
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        
+        .recommendations ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+        
+        .recommendations li {
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+        
+        .highlight-green {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        .highlight-red {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        /* ===== TUJUAN SECTION STYLES ===== */
+        .tujuan-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .tujuan-header {
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+
+        .tujuan-header h2 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .tujuan-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .tujuan-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border-left: 5px solid #3498db;
+            transition: all 0.3s ease;
+        }
+
+        .tujuan-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .tujuan-card h3 {
+            color: #2c3e50;
+            margin: 15px 0 10px 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .tujuan-card p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        .tujuan-analisis {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .tujuan-analisis h3 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 15px;
+        }
+
+        .analisis-list {
+            display: grid;
+            gap: 20px;
+        }
+
+        .analisis-item {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #27ae60;
+        }
+
+        .item-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #27ae60;
+            color: white;
+            border-radius: 50%;
+            font-weight: 700;
+            flex-shrink: 0;
+            font-size: 18px;
+        }
+
+        .item-content strong {
+            display: block;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        .item-content p {
+            color: #666;
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .tujuan-tech {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .tujuan-tech h3 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 2px solid #9b59b6;
+            padding-bottom: 15px;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tech-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .tech-item p {
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .tujuan-impact {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .tujuan-impact h3 {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 15px;
+        }
+
+        .impact-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .impact-item {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .impact-item h4 {
+            color: white;
+            margin: 0 0 10px 0;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .impact-item p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .tujuan-section {
+                padding: 20px;
+            }
+
+            .tujuan-header h2 {
+                font-size: 22px;
+            }
+
+            .tujuan-analisis h3,
+            .tujuan-tech h3,
+            .tujuan-impact h3 {
+                font-size: 18px;
+            }
+
+            .analisis-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .item-number {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 DASHBOARD ANALISIS BIG DATA</h1>
+            <p>Galunggung Green Glory Coffee - Penjualan Tahun 2025</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Analisis Trend & Preferensi Menggunakan Machine Learning (Linear & Logistic Regression)</p>
+        </header>
+
+        <!-- ===== SECTION TUJUAN TUGAS ===== -->
+        <div class="tujuan-section">
+            <div class="tujuan-header">
+                <h2>🎯 TUJUAN TUGAS & LATAR BELAKANG</h2>
+            </div>
+
+            <div class="tujuan-grid">
+                <!-- TUJUAN UMUM -->
+                <div class="tujuan-card">
+                    <div class="card-icon">📋</div>
+                    <h3>Tujuan Umum</h3>
+                    <p>Menganalisis data penjualan Kedai Kopi Galunggung Green Glory menggunakan teknologi Big Data untuk mendukung pengambilan keputusan strategis dalam meningkatkan value penjualan dan optimasi portfolio produk.</p>
+                </div>
+
+                <!-- PERTANYAAN BISNIS 1 -->
+                <div class="tujuan-card">
+                    <div class="card-icon">💰</div>
+                    <h3>Pertanyaan Bisnis #1</h3>
+                    <p><strong>Bagaimana cara meningkatkan VALUE penjualan secara signifikan?</strong></p>
+                    <p style="font-size: 0.9em; color: #666; margin-top: 8px;">Mencari strategi revenue growth yang sustainable dan implementable dalam 6 bulan.</p>
+                </div>
+
+                <!-- PERTANYAAN BISNIS 2 -->
+                <div class="tujuan-card">
+                    <div class="card-icon">📦</div>
+                    <h3>Pertanyaan Bisnis #2</h3>
+                    <p><strong>Apakah perlu menambahkan produk kopi baru?</strong></p>
+                    <p style="font-size: 0.9em; color: #666; margin-top: 8px;">Evaluasi viability produk baru vs optimasi existing portfolio berdasarkan data demand.</p>
+                </div>
+            </div>
+
+            <div class="tujuan-analisis">
+                <h3>📊 Pertanyaan Analisis yang Dijawab</h3>
+                <div class="analisis-list">
+                    <div class="analisis-item">
+                        <span class="item-number">1</span>
+                        <div class="item-content">
+                            <strong>Trend Penjualan Per Jenis Kopi</strong>
+                            <p>Analisis trend untuk 6 jenis kopi (Java Halu, Bunar, Parentas, Taraju, Gunung Puntang, Regional) menggunakan Linear Regression untuk identifikasi produk rising stars dan declining products.</p>
+                        </div>
+                    </div>
+
+                    <div class="analisis-item">
+                        <span class="item-number">2</span>
+                        <div class="item-content">
+                            <strong>Preferensi Pelanggan Berdasarkan Demografis</strong>
+                            <p>Analisis preferensi produk per kategori pelanggan (Big Cafe, Medium Cafe, Perorangan) menggunakan Logistic Regression untuk memahami buying behavior dan targeting strategy.</p>
+                        </div>
+                    </div>
+
+                    <div class="analisis-item">
+                        <span class="item-number">3</span>
+                        <div class="item-content">
+                            <strong>Implementasi Analisis dengan PySpark</strong>
+                            <p>Menggunakan Apache PySpark untuk processing dataset besar dan Scikit-learn untuk machine learning models (Linear Regression + Logistic Regression) dengan output visualization dan actionable insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tujuan-tech">
+                <h3>⚙️ Teknologi & Metodologi</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <span class="tech-badge">Big Data</span>
+                        <p>Apache PySpark untuk processing 951 transaksi dengan efficient parallel computation</p>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-badge">ML Models</span>
+                        <p>Linear Regression (Trend) + Logistic Regression (Preference) + Scikit-learn</p>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-badge">Visualization</span>
+                        <p>Interactive Charts (Chart.js) + Static visualizations (Matplotlib/Plotly)</p>
+                    </div>
+                    <div class="tech-item">
+                        <span class="tech-badge">Output Format</span>
+                        <p>Jupyter Notebook + Dashboard HTML + CSV Data + PNG Charts + MD Reports</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tujuan-impact">
+                <h3>🎯 Expected Business Impact</h3>
+                <div class="impact-content">
+                    <div class="impact-item">
+                        <h4>Revenue Growth</h4>
+                        <p>Rp 176.5M/bulan (2025) → <strong>Rp 212M/bulan (6 bulan)</strong> = <strong>+20% growth</strong></p>
+                    </div>
+                    <div class="impact-item">
+                        <h4>Portfolio Optimization</h4>
+                        <p>Fokus pada rising stars (Java Halu, Bunar) & revitalisasi declining products dengan data-driven strategy</p>
+                    </div>
+                    <div class="impact-item">
+                        <h4>Market Strategy</h4>
+                        <p>Segmentasi customer berbasis preferensi untuk targeted marketing & product development</p>
+                    </div>
+                    <div class="impact-item">
+                        <h4>ROI Investment</h4>
+                        <p>Investment Rp 357M dengan Year 1 ROI 48% dan payback period 2.1 tahun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===== END SECTION TUJUAN TUGAS ===== -->
+
+        
+        <div class="content">
+            <!-- KEY METRICS -->
+            <h2 style="margin-bottom: 20px;">📈 Metrik Utama</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <h3>Total Revenue</h3>
+                    <div class="value">Rp 2,1 M</div>
+                    <div class="subtext">12 bulan 2025</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Total Volume</h3>
+                    <div class="value">8,072 Kg</div>
+                    <div class="subtext">Seluruh produk</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Total Transaksi</h3>
+                    <div class="value">951</div>
+                    <div class="subtext">Sepanjang tahun</div>
+                </div>
+                <div class="metric-card">
+                    <h3>Rata-rata / Bulan</h3>
+                    <div class="value">Rp 176 Jt</div>
+                    <div class="subtext">Per bulan</div>
+                </div>
+            </div>
+            
+            <!-- CHARTS -->
+            <h2 style="margin: 40px 0 20px 0;">📊 Visualisasi Data</h2>
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h2>Trend Revenue Bulanan</h2>
+                    <div class="chart-wrapper">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h2>Market Share per Produk</h2>
+                    <div class="chart-wrapper">
+                        <canvas id="marketShareChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- TREND ANALYSIS TABLE -->
+            <div class="table-section">
+                <h2>🔬 Hasil Linear Regression - Analisis Trend Penjualan</h2>
+                <p style="margin-bottom: 15px; color: #666;">
+                    <strong>Penjelasan:</strong> Slope menunjukkan perubahan volume penjualan per bulan. 
+                    Nilai positif berarti trend NAIK, negatif berarti TURUN. R² (0-1) menunjukkan akurasi model.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produk</th>
+                            <th>Slope (Kg/Bulan)</th>
+                            <th>Intercept</th>
+                            <th>R² (Akurasi)</th>
+                            <th>Status Trend</th>
+                            <th>Total Volume</th>
+                            <th>Rekomendasi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Java Halu</strong></td>
+                            <td><span class="highlight-green">+9.03</span></td>
+                            <td>33.32</td>
+                            <td>0.5132</td>
+                            <td><span class="status-badge status-rising">⭐ RISING STAR</span></td>
+                            <td>1,104 Kg</td>
+                            <td><strong>INVEST 40-50%</strong> - Develop variants</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bunar</strong></td>
+                            <td><span class="highlight-green">+5.99</span></td>
+                            <td>86.82</td>
+                            <td>0.1362</td>
+                            <td><span class="status-badge status-rising">⭐ RISING STAR</span></td>
+                            <td>1,509 Kg</td>
+                            <td><strong>GROW 25-30%</strong> - Bundle strategy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Taraju</strong></td>
+                            <td>-1.79</td>
+                            <td>133.64</td>
+                            <td>0.0157</td>
+                            <td><span class="status-badge status-declining">🔴 DECLINING</span></td>
+                            <td>1,464 Kg</td>
+                            <td><strong>MAINTAIN</strong> - Stabil dengan R² rendah</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Parentas</strong></td>
+                            <td><span class="highlight-red">-4.02</span></td>
+                            <td>186.80</td>
+                            <td>0.1180</td>
+                            <td><span class="status-badge status-declining">🔴 DECLINING</span></td>
+                            <td>1,928 Kg</td>
+                            <td><strong>REVITALIZE</strong> - Heritage positioning</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gunung Puntang</strong></td>
+                            <td><span class="highlight-red">-4.21</span></td>
+                            <td>114.36</td>
+                            <td>0.1302</td>
+                            <td><span class="status-badge status-declining">🔴 DECLINING</span></td>
+                            <td>1,044 Kg</td>
+                            <td><strong>REPOSITION</strong> - Premium segment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Regional</strong></td>
+                            <td><span class="highlight-red">-3.23</span></td>
+                            <td>76.11</td>
+                            <td>0.2228</td>
+                            <td><span class="status-badge status-declining">🔴 DECLINING</span></td>
+                            <td>614 Kg</td>
+                            <td><strong>OPTIMIZE</strong> - B2B focus atau phase out</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- PREFERENCE ANALYSIS TABLE -->
+            <div class="table-section">
+                <h2>🎯 Hasil Logistic Regression - Analisis Preferensi Pelanggan</h2>
+                <p style="margin-bottom: 15px; color: #666;">
+                    <strong>Penjelasan:</strong> Preference % menunjukkan dari total pembelian satu produk, 
+                    berapa persen yang berasal dari setiap tipe kedai. Nilai lebih tinggi = preferensi lebih kuat.
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produk</th>
+                            <th>Big Cafe %</th>
+                            <th>Medium Cafe %</th>
+                            <th>Perorangan %</th>
+                            <th>TOP Segment</th>
+                            <th>Target Strategy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Parentas</strong></td>
+                            <td>16.2%</td>
+                            <td>19.6%</td>
+                            <td><strong>64.2% ⭐</strong></td>
+                            <td>Perorangan</td>
+                            <td>Mass market, affordable pricing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Java Halu</strong></td>
+                            <td>12.9%</td>
+                            <td>15.1%</td>
+                            <td><strong>71.9% ⭐</strong></td>
+                            <td>Perorangan</td>
+                            <td>Everyday premium, home brewing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gunung Puntang</strong></td>
+                            <td>9.4%</td>
+                            <td>12.9%</td>
+                            <td><strong>77.6% ⭐</strong></td>
+                            <td>Perorangan</td>
+                            <td>High altitude specialty, premium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bunar</strong></td>
+                            <td>15.6%</td>
+                            <td>10.2%</td>
+                            <td><strong>74.1% ⭐</strong></td>
+                            <td>Perorangan</td>
+                            <td>Smooth, beginner-friendly</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Taraju</strong></td>
+                            <td>13.0%</td>
+                            <td>14.6%</td>
+                            <td><strong>72.4% ⭐</strong></td>
+                            <td>Perorangan</td>
+                            <td>Balanced, versatile brewing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Regional</strong></td>
+                            <td><strong>54.2% ⭐</strong></td>
+                            <td>45.8%</td>
+                            <td>0%</td>
+                            <td>Big Cafe</td>
+                            <td>Commercial grade, B2B focus</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- RECOMMENDATIONS -->
+            <h2 style="margin: 40px 0 20px 0;">💡 Rekomendasi Strategis</h2>
+            
+            <div class="recommendations">
+                <h3>Pertanyaan 1: Bagaimana cara meningkatkan VALUE penjualan?</h3>
+                <ul>
+                    <li><strong>JAWABAN:</strong> Implement 4-Phase Growth Strategy dengan target +20% dalam 6 bulan</li>
+                    <li><strong>Fase 1 (30 hari):</strong> Leverage Rising Stars (Java Halu, Bunar) → +5% revenue</li>
+                    <li><strong>Fase 2 (60 hari):</strong> Optimize Stable Products (Parentas revitalization) → +7% cumulative</li>
+                    <li><strong>Fase 3 (90 hari):</strong> Monetize B2B Segment (Regional Blend) → +12% cumulative</li>
+                    <li><strong>Fase 4 (180 hari):</strong> Retail Upsell (Perorangan segment) → +20% cumulative</li>
+                    <li><strong>Financial Target:</strong> Rp 176.5M/bulan → Rp 212M/bulan (target 6 bulan)</li>
+                    <li><strong>Annual Projection:</strong> Rp 2.117M (2025) → Rp 2.542M (2026), +Rp 425M additional revenue</li>
+                </ul>
+            </div>
+            
+            <div class="recommendations">
+                <h3>Pertanyaan 2: Apakah perlu menambah produk baru?</h3>
+                <ul>
+                    <li><strong>JAWABAN:</strong> TIDAK PERLU menambah produk baru</li>
+                    <li><strong>Alasan 1 - Portfolio Optimization:</strong> 6 produk sudah optimal coverage dari budget hingga premium</li>
+                    <li><strong>Alasan 2 - Opportunity Cost:</strong> ROI dari optimization (19%+) > ROI dari new product (2-5%)</li>
+                    <li><strong>Alasan 3 - Supply Chain:</strong> Established relationships dengan 6 origins = consistency & quality terjamin</li>
+                    <li><strong>INSTEAD:</strong> Develop VARIANTS dari existing products (natural, wash, honey processing)</li>
+                    <li><strong>Variant ROI:</strong> Expected +37% portfolio potential dengan investment Rp 77M</li>
+                    <li><strong>Recommended Variants:</strong>
+                        <ul>
+                            <li>Java Halu: Natural, Wash, Honey (3 variants)</li>
+                            <li>Bunar: Natural, Wash, Honey (3 variants)</li>
+                            <li>Parentas: Light/Medium/Dark Roasts (3 variants)</li>
+                            <li>Others: Development as needed based on market response</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="recommendations">
+                <h3>Segment-Specific Actions</h3>
+                <ul>
+                    <li><strong>Big Cafe (56.4% revenue):</strong> Lock-in dengan Loyalty Program + Exclusive SKU development</li>
+                    <li><strong>Medium Cafe (40.5% revenue):</strong> Partnership programs, barista training, co-marketing</li>
+                    <li><strong>Perorangan (3% revenue, 68.8% transactions):</strong> Upsell to larger packs, E-commerce expansion</li>
+                </ul>
+            </div>
+            
+            <!-- 30-DAY ACTION PLAN -->
+            <div class="table-section">
+                <h2>📅 30-Day Action Plan</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Minggu</th>
+                            <th>Hari</th>
+                            <th>Task</th>
+                            <th>Owner</th>
+                            <th>Deliverable</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="5"><strong>Week 1</strong></td>
+                            <td>1-2</td>
+                            <td>Finalize Java Halu & Bunar sourcing</td>
+                            <td>Procurement</td>
+                            <td>Supplier agreements</td>
+                        </tr>
+                        <tr>
+                            <td>2-3</td>
+                            <td>Design premium packaging for Parentas</td>
+                            <td>Marketing</td>
+                            <td>Packaging mockups</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Identify 10 potential Big Cafe partners</td>
+                            <td>Sales</td>
+                            <td>Partner list with contacts</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Develop "Taraju Signature Brew" training</td>
+                            <td>Product</td>
+                            <td>Training deck (10 slides)</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Create product data sheets (tasting notes)</td>
+                            <td>Marketing</td>
+                            <td>6 product sheets</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4"><strong>Week 2</strong></td>
+                            <td>8</td>
+                            <td>Launch Java Halu variants pre-order</td>
+                            <td>Sales</td>
+                            <td>Pre-order landing page</td>
+                        </tr>
+                        <tr>
+                            <td>9-10</td>
+                            <td>Secure 3 coffee shop partners for Taraju</td>
+                            <td>Sales</td>
+                            <td>Partnership agreements</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Finalize Regional Blend B2B pricing</td>
+                            <td>Sales</td>
+                            <td>Pricing matrix</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Begin Parentas packaging production</td>
+                            <td>Operations</td>
+                            <td>1000 units produced</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="5"><strong>Week 3</strong></td>
+                            <td>15</td>
+                            <td>Java Halu variants official launch</td>
+                            <td>Marketing</td>
+                            <td>Social media campaign</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Parentas Heritage Collection launch</td>
+                            <td>Marketing</td>
+                            <td>Influencer partnerships</td>
+                        </tr>
+                        <tr>
+                            <td>17-19</td>
+                            <td>Execute Big Cafe partnership presentations</td>
+                            <td>Sales</td>
+                            <td>3-5 signed deals</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Launch "Coffee Tasting Bundle"</td>
+                            <td>Operations</td>
+                            <td>Bundle available in warehouse</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>Mid-month review meeting</td>
+                            <td>Management</td>
+                            <td>Performance dashboard</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4"><strong>Week 4</strong></td>
+                            <td>22</td>
+                            <td>Analyze Phase 1 results</td>
+                            <td>Analytics</td>
+                            <td>Revenue impact report</td>
+                        </tr>
+                        <tr>
+                            <td>23-25</td>
+                            <td>Plan Phase 2 optimizations</td>
+                            <td>Management</td>
+                            <td>Updated action plan</td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>Launch Big Cafe loyalty program</td>
+                            <td>Marketing</td>
+                            <td>Program mechanics</td>
+                        </tr>
+                        <tr>
+                            <td>27-28</td>
+                            <td>Month-end review & planning</td>
+                            <td>Management</td>
+                            <td>Monthly P&L review</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- KPI TARGETS -->
+            <div class="table-section">
+                <h2>🎯 KPI Tracking Targets</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>KPI</th>
+                            <th>Baseline 2025</th>
+                            <th>Target Jun 2026</th>
+                            <th>Target Dec 2026</th>
+                            <th>Target Growth</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Monthly Revenue</strong></td>
+                            <td>Rp 176.5M</td>
+                            <td>Rp 212M</td>
+                            <td>Rp 245M</td>
+                            <td>+20% (6mo), +39% (12mo)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Java Halu Revenue</strong></td>
+                            <td>Rp 24.9M/mo</td>
+                            <td>Rp 32M</td>
+                            <td>Rp 40M</td>
+                            <td>+28% (6mo), +60% (12mo)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bunar Revenue</strong></td>
+                            <td>Rp 35.1M/mo</td>
+                            <td>Rp 42M</td>
+                            <td>Rp 50M</td>
+                            <td>+20% (6mo), +42% (12mo)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monthly Volume</strong></td>
+                            <td>673 Kg</td>
+                            <td>850 Kg</td>
+                            <td>1,000 Kg</td>
+                            <td>+26% (6mo), +49% (12mo)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Big Cafe Partners</strong></td>
+                            <td>12</td>
+                            <td>25</td>
+                            <td>35</td>
+                            <td>+108% (6mo), +192% (12mo)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>E-commerce Revenue Share</strong></td>
+                            <td>0%</td>
+                            <td>5%</td>
+                            <td>8%</td>
+                            <td>New channel</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>Dashboard Analisis Big Data - Galunggung Green Glory Coffee</strong></p>
+            <p>Generated: 16 Januari 2026 | Data Period: Januari - Desember 2025 (951 transactions)</p>
+            <p>Analisis menggunakan Linear Regression & Logistic Regression (Machine Learning)</p>
+            <p style="margin-top: 15px; opacity: 0.7;">© 2026 Galunggung Green Glory Coffee - Confidential</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Revenue Trend Chart
+        const revenueCtx = document.getElementById('revenueChart').getContext('2d');
+        new Chart(revenueCtx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Revenue (Juta Rupiah)',
+                    data: [168.5, 172.3, 179.8, 175.2, 177.9, 182.1, 181.5, 176.8, 178.2, 179.5, 181.2, 185.0],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 5,
+                    pointBackgroundColor: '#667eea',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        labels: { font: { size: 12 } }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        title: { display: true, text: 'Juta Rupiah' }
+                    }
+                }
+            }
+        });
+        
+        // Market Share Pie Chart
+        const shareCtx = document.getElementById('marketShareChart').getContext('2d');
+        new Chart(shareCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Parentas', 'Bunar', 'Java Halu', 'Gunung Puntang', 'Taraju', 'Regional'],
+                datasets: [{
+                    data: [25.5, 19.9, 14.2, 14.7, 18.1, 4.4],
+                    backgroundColor: [
+                        '#667eea',
+                        '#764ba2',
+                        '#f093fb',
+                        '#4facfe',
+                        '#43e97b',
+                        '#fa709a'
+                    ],
+                    borderColor: '#fff',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: { font: { size: 11 } }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

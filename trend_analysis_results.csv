@@ -1,0 +1,7 @@
+Produk,Slope_Kg_Per_Bulan,Intercept,R_Squared,Status,Jumlah_Bulan,Total_Kg,Rata_Rata_Kg
+Java Halu,9.03,33.32,0.5132,⭐ Rising Star,12,1104.0,92.0
+Bunar,5.99,86.82,0.1362,⭐ Rising Star,12,1509.0,125.75
+Taraju,-1.79,133.64,0.0157,🔴 Declining,12,1464.0,122.0
+Regional,-3.23,76.11,0.2228,🔴 Declining,11,614.0,55.82
+Parentas,-4.02,186.8,0.118,🔴 Declining,12,1928.0,160.67
+Gunung Puntang,-4.21,114.36,0.1302,🔴 Declining,12,1044.0,87.0

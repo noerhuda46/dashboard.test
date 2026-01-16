@@ -1,0 +1,953 @@
+﻿No;Bulan;Jumlah Transaksi Bulan;Nama Kedai;Kategori Kedai;Nama Produk;Asal Daerah;Qty Kg;Harga Per Kg;Jumlah
+1;Jan-2025;1;Legend Coffee;Big;Robusta Regional - 1Kg;Regional;26;150000;3900000
+2;Jan-2025;2;Jarjak Coffee;Big;Wash Parentas - 1Kg;Parentas;28;320000;8960000
+3;Jan-2025;3;Spill & Bites;Big;Robusta Regional - 1Kg;Regional;33;150000;4950000
+4;Jan-2025;4;Leisure;Big;Wash Parentas - 1Kg;Parentas;35;320000;11200000
+5;Jan-2025;5;Todays Heritage;Big;Honey Bunar - 1Kg;Bunar;28;300000;8400000
+6;Jan-2025;6;Sarasa Lab;Big;Wash Bunar - 1Kg;Bunar;34;280000;9520000
+7;Jan-2025;7;Narasi;Big;Honey Parentas - 1Kg;Parentas;25;300000;7500000
+8;Jan-2025;8;Jco;Big;Blend Blend Regional - 1Kg;Blend Regional;31;170000;5270000
+9;Jan-2025;9;Siloka;Big;Natural Parentas - 1Kg;Parentas;29;250000;7250000
+10;Jan-2025;10;Centro Coffee;Big;Wash Java Halu - 1Kg;Java Halu;28;280000;7840000
+11;Jan-2025;11;Todays To Go;Big;Natural Parentas - 1Kg;Parentas;26;250000;6500000
+12;Jan-2025;12;Todays Halaman;Big;Natural Gunung Puntang - 1Kg;Gunung Puntang;31;320000;9920000
+13;Jan-2025;13;Pagi Siang Malam;Medium;Honey Taraju - 1Kg;Taraju;24;280000;6720000
+14;Jan-2025;14;Warung Kopi;Medium;Wash Parentas - 1Kg;Parentas;16;320000;5120000
+15;Jan-2025;15;Kopi Nusa;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;25;360000;9000000
+16;Jan-2025;16;Barco Hangout;Medium;Natural Taraju - 1Kg;Taraju;19;280000;5320000
+17;Jan-2025;17;Vino Coffee;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;18;320000;5760000
+18;Jan-2025;18;Kafe Asik;Medium;Honey Java Halu - 1Kg;Java Halu;21;300000;6300000
+19;Jan-2025;19;Ujung Pandang;Medium;Honey Parentas - 1Kg;Parentas;22;300000;6600000
+20;Jan-2025;20;Taman Kopi;Medium;Honey Taraju - 1Kg;Taraju;17;280000;4760000
+21;Jan-2025;21;Grand Mutia Coffee;Medium;Honey Taraju - 1Kg;Taraju;20;280000;5600000
+22;Jan-2025;22;Soto Kopi;Medium;Wash Parentas - 1Kg;Parentas;25;320000;8000000
+23;Jan-2025;23;Qahwa Coffee;Medium;Honey Parentas - 1Kg;Parentas;25;300000;7500000
+24;Jan-2025;24;Enjoy Coffee;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;24;320000;7680000
+25;Jan-2025;25;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+26;Jan-2025;26;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+27;Jan-2025;27;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+28;Jan-2025;28;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+29;Jan-2025;29;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+30;Jan-2025;30;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+31;Jan-2025;31;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+32;Jan-2025;32;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+33;Jan-2025;33;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+34;Jan-2025;34;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+35;Jan-2025;35;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+36;Jan-2025;36;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+37;Jan-2025;37;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+38;Jan-2025;38;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+39;Jan-2025;39;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+40;Jan-2025;40;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+41;Jan-2025;41;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+42;Jan-2025;42;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+43;Jan-2025;43;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+44;Jan-2025;44;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+45;Jan-2025;45;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+46;Jan-2025;46;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+47;Jan-2025;47;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+48;Jan-2025;48;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+49;Jan-2025;49;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+50;Jan-2025;50;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+51;Jan-2025;51;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+52;Jan-2025;52;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+53;Jan-2025;53;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+54;Jan-2025;54;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+55;Jan-2025;55;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+56;Jan-2025;56;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+57;Jan-2025;57;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+58;Jan-2025;58;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+59;Jan-2025;59;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+60;Jan-2025;60;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+61;Jan-2025;61;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+62;Jan-2025;62;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+63;Jan-2025;63;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+64;Jan-2025;64;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+65;Jan-2025;65;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+66;Jan-2025;66;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+67;Jan-2025;67;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+68;Jan-2025;68;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+69;Jan-2025;69;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+70;Jan-2025;70;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+71;Jan-2025;71;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+72;Jan-2025;72;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+73;Jan-2025;73;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+74;Jan-2025;74;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+75;Jan-2025;75;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+76;Jan-2025;76;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+77;Jan-2025;77;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+78;Jan-2025;78;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+79;Jan-2025;79;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+80;Jan-2025;80;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+81;Jan-2025;81;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+82;Jan-2025;82;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+83;Jan-2025;83;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+84;Jan-2025;84;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+85;Feb-2025;1;Centro Coffee;Big;Honey Parentas - 1Kg;Parentas;35;300000;10500000
+86;Feb-2025;2;Jco;Big;Natural Parentas - 1Kg;Parentas;26;250000;6500000
+87;Feb-2025;3;Todays To Go;Big;Wash Taraju - 1Kg;Taraju;31;280000;8680000
+88;Feb-2025;4;Legend Coffee;Big;Blend Blend Regional - 1Kg;Blend Regional;32;170000;5440000
+89;Feb-2025;5;Siloka;Big;Robusta Regional - 1Kg;Regional;29;150000;4350000
+90;Feb-2025;6;Leisure;Big;Blend Blend Regional - 1Kg;Blend Regional;33;170000;5610000
+91;Feb-2025;7;Spill & Bites;Big;Honey Java Halu - 1Kg;Java Halu;35;300000;10500000
+92;Feb-2025;8;Todays Halaman;Big;Wash Taraju - 1Kg;Taraju;35;280000;9800000
+93;Feb-2025;9;Sarasa Lab;Big;Wash Parentas - 1Kg;Parentas;27;320000;8640000
+94;Feb-2025;10;Narasi;Big;Honey Taraju - 1Kg;Taraju;27;280000;7560000
+95;Feb-2025;11;Jarjak Coffee;Big;Robusta Regional - 1Kg;Regional;34;150000;5100000
+96;Feb-2025;12;Todays Heritage;Big;Natural Parentas - 1Kg;Parentas;32;250000;8000000
+97;Feb-2025;13;Chronos Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;25;280000;7000000
+98;Feb-2025;14;Pagi Siang Malam;Medium;Natural Bunar - 1Kg;Bunar;23;320000;7360000
+99;Feb-2025;15;Medan Kopi;Medium;Blend Blend Regional - 1Kg;Blend Regional;19;170000;3230000
+100;Feb-2025;16;Kafe Asik;Medium;Honey Bunar - 1Kg;Bunar;18;300000;5400000
+101;Feb-2025;17;Back & Brew;Medium;Wash Parentas - 1Kg;Parentas;19;320000;6080000
+102;Feb-2025;18;Warung Kopi;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;25;300000;7500000
+103;Feb-2025;19;Ujung Pandang;Medium;Honey Taraju - 1Kg;Taraju;22;280000;6160000
+104;Feb-2025;20;Barco Hangout;Medium;Wash Bunar - 1Kg;Bunar;16;280000;4480000
+105;Feb-2025;21;Vino Coffee;Medium;Natural Taraju - 1Kg;Taraju;18;280000;5040000
+106;Feb-2025;22;Taman Kopi;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;20;320000;6400000
+107;Feb-2025;23;Nusantara Brew;Medium;Robusta Regional - 1Kg;Regional;24;150000;3600000
+108;Feb-2025;24;Caspia;Medium;Natural Taraju - 1Kg;Taraju;24;280000;6720000
+109;Feb-2025;25;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+110;Feb-2025;26;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+111;Feb-2025;27;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+112;Feb-2025;28;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+113;Feb-2025;29;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+114;Feb-2025;30;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+115;Feb-2025;31;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+116;Feb-2025;32;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+117;Feb-2025;33;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+118;Feb-2025;34;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+119;Feb-2025;35;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+120;Feb-2025;36;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+121;Feb-2025;37;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+122;Feb-2025;38;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+123;Feb-2025;39;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+124;Feb-2025;40;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+125;Feb-2025;41;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+126;Feb-2025;42;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+127;Feb-2025;43;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+128;Feb-2025;44;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+129;Feb-2025;45;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+130;Feb-2025;46;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+131;Feb-2025;47;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+132;Feb-2025;48;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+133;Feb-2025;49;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+134;Feb-2025;50;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+135;Feb-2025;51;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+136;Feb-2025;52;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+137;Feb-2025;53;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+138;Feb-2025;54;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+139;Feb-2025;55;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+140;Feb-2025;56;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+141;Feb-2025;57;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+142;Feb-2025;58;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+143;Feb-2025;59;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+144;Feb-2025;60;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+145;Feb-2025;61;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+146;Feb-2025;62;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+147;Feb-2025;63;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+148;Feb-2025;64;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+149;Feb-2025;65;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+150;Feb-2025;66;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+151;Feb-2025;67;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+152;Feb-2025;68;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+153;Feb-2025;69;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+154;Feb-2025;70;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+155;Feb-2025;71;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+156;Feb-2025;72;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+157;Feb-2025;73;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+158;Feb-2025;74;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+159;Feb-2025;75;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+160;Feb-2025;76;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+161;Feb-2025;77;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+162;Mar-2025;1;Todays Heritage;Big;Robusta Regional - 1Kg;Regional;26;150000;3900000
+163;Mar-2025;2;Todays Halaman;Big;Natural Taraju - 1Kg;Taraju;27;280000;7560000
+164;Mar-2025;3;Centro Coffee;Big;Honey Bunar - 1Kg;Bunar;32;300000;9600000
+165;Mar-2025;4;Todays To Go;Big;Natural Bunar - 1Kg;Bunar;28;320000;8960000
+166;Mar-2025;5;Siloka;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;25;300000;7500000
+167;Mar-2025;6;Jco;Big;Blend Blend Regional - 1Kg;Blend Regional;31;170000;5270000
+168;Mar-2025;7;Leisure;Big;Robusta Regional - 1Kg;Regional;31;150000;4650000
+169;Mar-2025;8;Legend Coffee;Big;Honey Parentas - 1Kg;Parentas;32;300000;9600000
+170;Mar-2025;9;Jarjak Coffee;Big;Wash Taraju - 1Kg;Taraju;31;280000;8680000
+171;Mar-2025;10;Spill & Bites;Big;Natural Bunar - 1Kg;Bunar;27;320000;8640000
+172;Mar-2025;11;Narasi;Big;Wash Parentas - 1Kg;Parentas;29;320000;9280000
+173;Mar-2025;12;Sarasa Lab;Big;Wash Parentas - 1Kg;Parentas;25;320000;8000000
+174;Mar-2025;13;Vino Coffee;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;24;320000;7680000
+175;Mar-2025;14;Barco Hangout;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;25;320000;8000000
+176;Mar-2025;15;Nusantara Brew;Medium;Natural Taraju - 1Kg;Taraju;21;280000;5880000
+177;Mar-2025;16;Warung Kopi;Medium;Honey Java Halu - 1Kg;Java Halu;24;300000;7200000
+178;Mar-2025;17;Back & Brew;Medium;Natural Taraju - 1Kg;Taraju;24;280000;6720000
+179;Mar-2025;18;Medan Kopi;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;24;360000;8640000
+180;Mar-2025;19;Kafe Asik;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;21;320000;6720000
+181;Mar-2025;20;Kopi Nusa;Medium;Natural Parentas - 1Kg;Parentas;19;250000;4750000
+182;Mar-2025;21;Pagi Siang Malam;Medium;Wash Parentas - 1Kg;Parentas;25;320000;8000000
+183;Mar-2025;22;Caspia;Medium;Natural Parentas - 1Kg;Parentas;18;250000;4500000
+184;Mar-2025;23;Soto Kopi;Medium;Honey Parentas - 1Kg;Parentas;21;300000;6300000
+185;Mar-2025;24;Taman Kopi;Medium;Wash Java Halu - 1Kg;Java Halu;25;280000;7000000
+186;Mar-2025;25;Grand Mutia Coffee;Medium;Wash Taraju - 1Kg;Taraju;22;280000;6160000
+187;Mar-2025;26;Qahwa Coffee;Medium;Natural Parentas - 1Kg;Parentas;16;250000;4000000
+188;Mar-2025;27;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+189;Mar-2025;28;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+190;Mar-2025;29;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+191;Mar-2025;30;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+192;Mar-2025;31;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+193;Mar-2025;32;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+194;Mar-2025;33;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+195;Mar-2025;34;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+196;Mar-2025;35;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+197;Mar-2025;36;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+198;Mar-2025;37;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+199;Mar-2025;38;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+200;Mar-2025;39;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+201;Mar-2025;40;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+202;Mar-2025;41;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+203;Mar-2025;42;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+204;Mar-2025;43;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+205;Mar-2025;44;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+206;Mar-2025;45;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+207;Mar-2025;46;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+208;Mar-2025;47;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+209;Mar-2025;48;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+210;Mar-2025;49;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+211;Mar-2025;50;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+212;Mar-2025;51;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+213;Mar-2025;52;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+214;Mar-2025;53;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+215;Mar-2025;54;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+216;Mar-2025;55;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+217;Mar-2025;56;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+218;Mar-2025;57;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+219;Mar-2025;58;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+220;Mar-2025;59;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+221;Mar-2025;60;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+222;Mar-2025;61;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+223;Mar-2025;62;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+224;Mar-2025;63;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+225;Mar-2025;64;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+226;Mar-2025;65;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+227;Mar-2025;66;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+228;Mar-2025;67;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+229;Mar-2025;68;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+230;Mar-2025;69;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+231;Mar-2025;70;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+232;Mar-2025;71;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+233;Mar-2025;72;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+234;Mar-2025;73;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+235;Mar-2025;74;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+236;Mar-2025;75;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+237;Mar-2025;76;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+238;Apr-2025;1;Todays Halaman;Big;Blend Blend Regional - 1Kg;Blend Regional;32;170000;5440000
+239;Apr-2025;2;Spill & Bites;Big;Honey Bunar - 1Kg;Bunar;33;300000;9900000
+240;Apr-2025;3;Jarjak Coffee;Big;Robusta Regional - 1Kg;Regional;26;150000;3900000
+241;Apr-2025;4;Legend Coffee;Big;Natural Gunung Puntang - 1Kg;Gunung Puntang;27;320000;8640000
+242;Apr-2025;5;Todays To Go;Big;Wash Gunung Puntang - 1Kg;Gunung Puntang;30;360000;10800000
+243;Apr-2025;6;Sarasa Lab;Big;Wash Java Halu - 1Kg;Java Halu;31;280000;8680000
+244;Apr-2025;7;Centro Coffee;Big;Wash Java Halu - 1Kg;Java Halu;25;280000;7000000
+245;Apr-2025;8;Siloka;Big;Wash Taraju - 1Kg;Taraju;30;280000;8400000
+246;Apr-2025;9;Jco;Big;Wash Gunung Puntang - 1Kg;Gunung Puntang;30;360000;10800000
+247;Apr-2025;10;Todays Heritage;Big;Wash Parentas - 1Kg;Parentas;35;320000;11200000
+248;Apr-2025;11;Leisure;Big;Natural Taraju - 1Kg;Taraju;35;280000;9800000
+249;Apr-2025;12;Narasi;Big;Honey Java Halu - 1Kg;Java Halu;30;300000;9000000
+250;Apr-2025;13;Roti Bakar Plus;Medium;Natural Taraju - 1Kg;Taraju;19;280000;5320000
+251;Apr-2025;14;Enjoy Coffee;Medium;Blend Blend Regional - 1Kg;Blend Regional;16;170000;2720000
+252;Apr-2025;15;Kafe Asik;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;15;300000;4500000
+253;Apr-2025;16;Finteresnest;Medium;Natural Bunar - 1Kg;Bunar;18;320000;5760000
+254;Apr-2025;17;Qahwa Coffee;Medium;Wash Parentas - 1Kg;Parentas;22;320000;7040000
+255;Apr-2025;18;Soto Kopi;Medium;Honey Taraju - 1Kg;Taraju;19;280000;5320000
+256;Apr-2025;19;Caspia;Medium;Natural Taraju - 1Kg;Taraju;18;280000;5040000
+257;Apr-2025;20;Grand Mutia Coffee;Medium;Robusta Regional - 1Kg;Regional;25;150000;3750000
+258;Apr-2025;21;Back & Brew;Medium;Wash Parentas - 1Kg;Parentas;21;320000;6720000
+259;Apr-2025;22;Warung Kopi;Medium;Natural Parentas - 1Kg;Parentas;19;250000;4750000
+260;Apr-2025;23;Taman Kopi;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;19;320000;6080000
+261;Apr-2025;24;Pagi Siang Malam;Medium;Honey Taraju - 1Kg;Taraju;25;280000;7000000
+262;Apr-2025;25;Ujung Pandang;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;25;300000;7500000
+263;Apr-2025;26;Kopi Nusa;Medium;Natural Parentas - 1Kg;Parentas;15;250000;3750000
+264;Apr-2025;27;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+265;Apr-2025;28;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+266;Apr-2025;29;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+267;Apr-2025;30;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+268;Apr-2025;31;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+269;Apr-2025;32;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+270;Apr-2025;33;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+271;Apr-2025;34;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+272;Apr-2025;35;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+273;Apr-2025;36;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+274;Apr-2025;37;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+275;Apr-2025;38;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+276;Apr-2025;39;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+277;Apr-2025;40;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+278;Apr-2025;41;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+279;Apr-2025;42;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+280;Apr-2025;43;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+281;Apr-2025;44;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+282;Apr-2025;45;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+283;Apr-2025;46;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+284;Apr-2025;47;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+285;Apr-2025;48;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+286;Apr-2025;49;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+287;Apr-2025;50;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+288;Apr-2025;51;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+289;Apr-2025;52;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+290;Apr-2025;53;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+291;Apr-2025;54;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+292;Apr-2025;55;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+293;Apr-2025;56;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+294;Apr-2025;57;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+295;Apr-2025;58;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+296;Apr-2025;59;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+297;Apr-2025;60;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+298;Apr-2025;61;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+299;Apr-2025;62;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+300;Apr-2025;63;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+301;Apr-2025;64;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+302;Apr-2025;65;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+303;Apr-2025;66;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+304;Apr-2025;67;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+305;Apr-2025;68;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+306;Apr-2025;69;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+307;Apr-2025;70;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+308;Apr-2025;71;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+309;Apr-2025;72;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+310;Apr-2025;73;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+311;Apr-2025;74;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+312;Apr-2025;75;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+313;Apr-2025;76;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+314;Apr-2025;77;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+315;May-2025;1;Spill & Bites;Big;Wash Taraju - 1Kg;Taraju;28;280000;7840000
+316;May-2025;2;Todays Heritage;Big;Honey Bunar - 1Kg;Bunar;34;300000;10200000
+317;May-2025;3;Centro Coffee;Big;Natural Parentas - 1Kg;Parentas;32;250000;8000000
+318;May-2025;4;Leisure;Big;Wash Bunar - 1Kg;Bunar;32;280000;8960000
+319;May-2025;5;Todays To Go;Big;Wash Parentas - 1Kg;Parentas;33;320000;10560000
+320;May-2025;6;Narasi;Big;Natural Bunar - 1Kg;Bunar;37;320000;11840000
+321;May-2025;7;Jco;Big;Natural Gunung Puntang - 1Kg;Gunung Puntang;29;320000;9280000
+322;May-2025;8;Legend Coffee;Big;Natural Parentas - 1Kg;Parentas;26;250000;6500000
+323;May-2025;9;Siloka;Big;Natural Taraju - 1Kg;Taraju;35;280000;9800000
+324;May-2025;10;Sarasa Lab;Big;Wash Taraju - 1Kg;Taraju;28;280000;7840000
+325;May-2025;11;Jarjak Coffee;Big;Wash Parentas - 1Kg;Parentas;27;320000;8640000
+326;May-2025;12;Todays Halaman;Big;Robusta Regional - 1Kg;Regional;25;150000;3750000
+327;May-2025;13;Taman Kopi;Medium;Wash Java Halu - 1Kg;Java Halu;25;280000;7000000
+328;May-2025;14;Caspia;Medium;Robusta Regional - 1Kg;Regional;16;150000;2400000
+329;May-2025;15;Soto Kopi;Medium;Honey Bunar - 1Kg;Bunar;28;300000;8400000
+330;May-2025;16;Roti Bakar Plus;Medium;Blend Blend Regional - 1Kg;Blend Regional;23;170000;3910000
+331;May-2025;17;Ujung Pandang;Medium;Wash Bunar - 1Kg;Bunar;15;280000;4200000
+332;May-2025;18;Nusantara Brew;Medium;Natural Taraju - 1Kg;Taraju;16;280000;4480000
+333;May-2025;19;Medan Kopi;Medium;Wash Bunar - 1Kg;Bunar;17;280000;4760000
+334;May-2025;20;Chronos Coffee;Medium;Wash Bunar - 1Kg;Bunar;25;280000;7000000
+335;May-2025;21;Grand Mutia Coffee;Medium;Natural Parentas - 1Kg;Parentas;22;250000;5500000
+336;May-2025;22;Kafe Asik;Medium;Honey Bunar - 1Kg;Bunar;23;300000;6900000
+337;May-2025;23;Warung Kopi;Medium;Wash Bunar - 1Kg;Bunar;17;280000;4760000
+338;May-2025;24;Pagi Siang Malam;Medium;Natural Bunar - 1Kg;Bunar;22;320000;7040000
+339;May-2025;25;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+340;May-2025;26;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+341;May-2025;27;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+342;May-2025;28;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+343;May-2025;29;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+344;May-2025;30;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+345;May-2025;31;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+346;May-2025;32;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+347;May-2025;33;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+348;May-2025;34;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+349;May-2025;35;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+350;May-2025;36;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+351;May-2025;37;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+352;May-2025;38;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+353;May-2025;39;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+354;May-2025;40;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+355;May-2025;41;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+356;May-2025;42;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+357;May-2025;43;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+358;May-2025;44;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+359;May-2025;45;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+360;May-2025;46;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+361;May-2025;47;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+362;May-2025;48;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+363;May-2025;49;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+364;May-2025;50;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+365;May-2025;51;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+366;May-2025;52;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+367;May-2025;53;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+368;May-2025;54;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+369;May-2025;55;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+370;May-2025;56;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+371;May-2025;57;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+372;May-2025;58;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+373;May-2025;59;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+374;May-2025;60;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+375;May-2025;61;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+376;May-2025;62;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+377;May-2025;63;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+378;May-2025;64;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+379;May-2025;65;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+380;May-2025;66;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+381;May-2025;67;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+382;May-2025;68;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+383;May-2025;69;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+384;May-2025;70;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+385;May-2025;71;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+386;May-2025;72;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+387;May-2025;73;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+388;May-2025;74;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+389;May-2025;75;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+390;May-2025;76;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+391;May-2025;77;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+392;May-2025;78;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+393;Jun-2025;1;Todays To Go;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;27;300000;8100000
+394;Jun-2025;2;Todays Heritage;Big;Wash Bunar - 1Kg;Bunar;27;280000;7560000
+395;Jun-2025;3;Jco;Big;Robusta Regional - 1Kg;Regional;31;150000;4650000
+396;Jun-2025;4;Leisure;Big;Robusta Regional - 1Kg;Regional;26;150000;3900000
+397;Jun-2025;5;Todays Halaman;Big;Honey Bunar - 1Kg;Bunar;27;300000;8100000
+398;Jun-2025;6;Legend Coffee;Big;Wash Bunar - 1Kg;Bunar;27;280000;7560000
+399;Jun-2025;7;Centro Coffee;Big;Wash Gunung Puntang - 1Kg;Gunung Puntang;29;360000;10440000
+400;Jun-2025;8;Siloka;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;30;300000;9000000
+401;Jun-2025;9;Spill & Bites;Big;Wash Parentas - 1Kg;Parentas;32;320000;10240000
+402;Jun-2025;10;Jarjak Coffee;Big;Natural Parentas - 1Kg;Parentas;30;250000;7500000
+403;Jun-2025;11;Sarasa Lab;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;29;300000;8700000
+404;Jun-2025;12;Narasi;Big;Honey Bunar - 1Kg;Bunar;29;300000;8700000
+405;Jun-2025;13;Taman Kopi;Medium;Robusta Regional - 1Kg;Regional;24;150000;3600000
+406;Jun-2025;14;Back & Brew;Medium;Wash Java Halu - 1Kg;Java Halu;18;280000;5040000
+407;Jun-2025;15;Barco Hangout;Medium;Wash Java Halu - 1Kg;Java Halu;22;280000;6160000
+408;Jun-2025;16;Pagi Siang Malam;Medium;Honey Java Halu - 1Kg;Java Halu;24;300000;7200000
+409;Jun-2025;17;Chronos Coffee;Medium;Wash Parentas - 1Kg;Parentas;22;320000;7040000
+410;Jun-2025;18;Nusantara Brew;Medium;Honey Parentas - 1Kg;Parentas;20;300000;6000000
+411;Jun-2025;19;Ujung Pandang;Medium;Blend Blend Regional - 1Kg;Blend Regional;24;170000;4080000
+412;Jun-2025;20;Roti Bakar Plus;Medium;Honey Java Halu - 1Kg;Java Halu;17;300000;5100000
+413;Jun-2025;21;Vino Coffee;Medium;Wash Taraju - 1Kg;Taraju;16;280000;4480000
+414;Jun-2025;22;Warung Kopi;Medium;Robusta Regional - 1Kg;Regional;19;150000;2850000
+415;Jun-2025;23;Soto Kopi;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;21;300000;6300000
+416;Jun-2025;24;Kopi Nusa;Medium;Wash Parentas - 1Kg;Parentas;16;320000;5120000
+417;Jun-2025;25;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+418;Jun-2025;26;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+419;Jun-2025;27;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+420;Jun-2025;28;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+421;Jun-2025;29;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+422;Jun-2025;30;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+423;Jun-2025;31;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+424;Jun-2025;32;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+425;Jun-2025;33;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+426;Jun-2025;34;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+427;Jun-2025;35;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+428;Jun-2025;36;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+429;Jun-2025;37;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+430;Jun-2025;38;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+431;Jun-2025;39;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+432;Jun-2025;40;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+433;Jun-2025;41;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+434;Jun-2025;42;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+435;Jun-2025;43;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+436;Jun-2025;44;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+437;Jun-2025;45;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+438;Jun-2025;46;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+439;Jun-2025;47;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+440;Jun-2025;48;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+441;Jun-2025;49;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+442;Jun-2025;50;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+443;Jun-2025;51;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+444;Jun-2025;52;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+445;Jun-2025;53;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+446;Jun-2025;54;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+447;Jun-2025;55;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+448;Jun-2025;56;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+449;Jun-2025;57;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+450;Jun-2025;58;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+451;Jun-2025;59;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+452;Jun-2025;60;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+453;Jun-2025;61;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+454;Jun-2025;62;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+455;Jun-2025;63;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+456;Jun-2025;64;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+457;Jun-2025;65;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+458;Jun-2025;66;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+459;Jun-2025;67;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+460;Jun-2025;68;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+461;Jun-2025;69;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+462;Jun-2025;70;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+463;Jun-2025;71;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+464;Jun-2025;72;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+465;Jun-2025;73;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+466;Jun-2025;74;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+467;Jun-2025;75;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+468;Jun-2025;76;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+469;Jun-2025;77;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+470;Jun-2025;78;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+471;Jun-2025;79;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+472;Jun-2025;80;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+473;Jun-2025;81;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+474;Jun-2025;82;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+475;Jun-2025;83;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+476;Jul-2025;1;Spill & Bites;Big;Honey Taraju - 1Kg;Taraju;29;280000;8120000
+477;Jul-2025;2;Todays Halaman;Big;Natural Parentas - 1Kg;Parentas;29;250000;7250000
+478;Jul-2025;3;Leisure;Big;Honey Parentas - 1Kg;Parentas;33;300000;9900000
+479;Jul-2025;4;Jco;Big;Robusta Regional - 1Kg;Regional;33;150000;4950000
+480;Jul-2025;5;Todays To Go;Big;Wash Parentas - 1Kg;Parentas;26;320000;8320000
+481;Jul-2025;6;Centro Coffee;Big;Natural Taraju - 1Kg;Taraju;31;280000;8680000
+482;Jul-2025;7;Jarjak Coffee;Big;Natural Bunar - 1Kg;Bunar;33;320000;10560000
+483;Jul-2025;8;Siloka;Big;Natural Taraju - 1Kg;Taraju;32;280000;8960000
+484;Jul-2025;9;Todays Heritage;Big;Natural Bunar - 1Kg;Bunar;32;320000;10240000
+485;Jul-2025;10;Narasi;Big;Robusta Regional - 1Kg;Regional;26;150000;3900000
+486;Jul-2025;11;Legend Coffee;Big;Wash Taraju - 1Kg;Taraju;28;280000;7840000
+487;Jul-2025;12;Sarasa Lab;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;28;300000;8400000
+488;Jul-2025;13;Warung Kopi;Medium;Natural Taraju - 1Kg;Taraju;16;280000;4480000
+489;Jul-2025;14;Pagi Siang Malam;Medium;Wash Parentas - 1Kg;Parentas;20;320000;6400000
+490;Jul-2025;15;Taman Kopi;Medium;Honey Java Halu - 1Kg;Java Halu;23;300000;6900000
+491;Jul-2025;16;Vino Coffee;Medium;Blend Blend Regional - 1Kg;Blend Regional;18;170000;3060000
+492;Jul-2025;17;Grand Mutia Coffee;Medium;Wash Parentas - 1Kg;Parentas;22;320000;7040000
+493;Jul-2025;18;Ujung Pandang;Medium;Honey Parentas - 1Kg;Parentas;24;300000;7200000
+494;Jul-2025;19;Kopi Nusa;Medium;Wash Taraju - 1Kg;Taraju;16;280000;4480000
+495;Jul-2025;20;Finteresnest;Medium;Wash Parentas - 1Kg;Parentas;19;320000;6080000
+496;Jul-2025;21;Roti Bakar Plus;Medium;Natural Taraju - 1Kg;Taraju;20;280000;5600000
+497;Jul-2025;22;Kafe Asik;Medium;Blend Blend Regional - 1Kg;Blend Regional;19;170000;3230000
+498;Jul-2025;23;Enjoy Coffee;Medium;Robusta Regional - 1Kg;Regional;23;150000;3450000
+499;Jul-2025;24;Qahwa Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;19;280000;5320000
+500;Jul-2025;25;Caspia;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;15;360000;5400000
+501;Jul-2025;26;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+502;Jul-2025;27;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+503;Jul-2025;28;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+504;Jul-2025;29;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+505;Jul-2025;30;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+506;Jul-2025;31;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+507;Jul-2025;32;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+508;Jul-2025;33;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+509;Jul-2025;34;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+510;Jul-2025;35;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+511;Jul-2025;36;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+512;Jul-2025;37;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+513;Jul-2025;38;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+514;Jul-2025;39;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+515;Jul-2025;40;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+516;Jul-2025;41;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+517;Jul-2025;42;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+518;Jul-2025;43;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+519;Jul-2025;44;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+520;Jul-2025;45;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+521;Jul-2025;46;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+522;Jul-2025;47;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+523;Jul-2025;48;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+524;Jul-2025;49;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+525;Jul-2025;50;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+526;Jul-2025;51;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+527;Jul-2025;52;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+528;Jul-2025;53;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+529;Jul-2025;54;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+530;Jul-2025;55;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+531;Jul-2025;56;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+532;Jul-2025;57;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+533;Jul-2025;58;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+534;Jul-2025;59;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+535;Jul-2025;60;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+536;Jul-2025;61;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+537;Jul-2025;62;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+538;Jul-2025;63;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+539;Jul-2025;64;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+540;Jul-2025;65;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+541;Jul-2025;66;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+542;Jul-2025;67;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+543;Jul-2025;68;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+544;Jul-2025;69;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+545;Jul-2025;70;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+546;Jul-2025;71;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+547;Jul-2025;72;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+548;Jul-2025;73;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+549;Jul-2025;74;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+550;Jul-2025;75;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+551;Jul-2025;76;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+552;Jul-2025;77;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+553;Jul-2025;78;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+554;Jul-2025;79;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+555;Jul-2025;80;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+556;Jul-2025;81;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+557;Jul-2025;82;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+558;Jul-2025;83;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+559;Aug-2025;1;Jarjak Coffee;Big;Blend Blend Regional - 1Kg;Blend Regional;25;170000;4250000
+560;Aug-2025;2;Siloka;Big;Honey Bunar - 1Kg;Bunar;32;300000;9600000
+561;Aug-2025;3;Legend Coffee;Big;Natural Bunar - 1Kg;Bunar;29;320000;9280000
+562;Aug-2025;4;Leisure;Big;Wash Gunung Puntang - 1Kg;Gunung Puntang;28;360000;10080000
+563;Aug-2025;5;Todays Heritage;Big;Wash Taraju - 1Kg;Taraju;29;280000;8120000
+564;Aug-2025;6;Centro Coffee;Big;Wash Bunar - 1Kg;Bunar;26;280000;7280000
+565;Aug-2025;7;Narasi;Big;Natural Taraju - 1Kg;Taraju;29;280000;8120000
+566;Aug-2025;8;Sarasa Lab;Big;Wash Parentas - 1Kg;Parentas;31;320000;9920000
+567;Aug-2025;9;Jco;Big;Honey Java Halu - 1Kg;Java Halu;33;300000;9900000
+568;Aug-2025;10;Spill & Bites;Big;Natural Taraju - 1Kg;Taraju;35;280000;9800000
+569;Aug-2025;11;Todays To Go;Big;Wash Java Halu - 1Kg;Java Halu;29;280000;8120000
+570;Aug-2025;12;Todays Halaman;Big;Wash Java Halu - 1Kg;Java Halu;26;280000;7280000
+571;Aug-2025;13;Finteresnest;Medium;Wash Bunar - 1Kg;Bunar;16;280000;4480000
+572;Aug-2025;14;Medan Kopi;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;21;360000;7560000
+573;Aug-2025;15;Vino Coffee;Medium;Natural Parentas - 1Kg;Parentas;24;250000;6000000
+574;Aug-2025;16;Soto Kopi;Medium;Honey Parentas - 1Kg;Parentas;15;300000;4500000
+575;Aug-2025;17;Barco Hangout;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;18;320000;5760000
+576;Aug-2025;18;Kafe Asik;Medium;Robusta Regional - 1Kg;Regional;25;150000;3750000
+577;Aug-2025;19;Pagi Siang Malam;Medium;Honey Parentas - 1Kg;Parentas;24;300000;7200000
+578;Aug-2025;20;Enjoy Coffee;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;17;360000;6120000
+579;Aug-2025;21;Grand Mutia Coffee;Medium;Natural Bunar - 1Kg;Bunar;23;320000;7360000
+580;Aug-2025;22;Qahwa Coffee;Medium;Wash Bunar - 1Kg;Bunar;19;280000;5320000
+581;Aug-2025;23;Kopi Nusa;Medium;Blend Blend Regional - 1Kg;Blend Regional;24;170000;4080000
+582;Aug-2025;24;Roti Bakar Plus;Medium;Honey Bunar - 1Kg;Bunar;25;300000;7500000
+583;Aug-2025;25;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+584;Aug-2025;26;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+585;Aug-2025;27;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+586;Aug-2025;28;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+587;Aug-2025;29;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+588;Aug-2025;30;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+589;Aug-2025;31;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+590;Aug-2025;32;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+591;Aug-2025;33;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+592;Aug-2025;34;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+593;Aug-2025;35;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+594;Aug-2025;36;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+595;Aug-2025;37;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+596;Aug-2025;38;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+597;Aug-2025;39;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+598;Aug-2025;40;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+599;Aug-2025;41;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+600;Aug-2025;42;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+601;Aug-2025;43;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+602;Aug-2025;44;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+603;Aug-2025;45;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+604;Aug-2025;46;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+605;Aug-2025;47;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+606;Aug-2025;48;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+607;Aug-2025;49;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+608;Aug-2025;50;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+609;Aug-2025;51;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+610;Aug-2025;52;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+611;Aug-2025;53;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+612;Aug-2025;54;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+613;Aug-2025;55;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+614;Aug-2025;56;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+615;Aug-2025;57;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+616;Aug-2025;58;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+617;Aug-2025;59;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+618;Aug-2025;60;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+619;Aug-2025;61;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+620;Aug-2025;62;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+621;Aug-2025;63;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+622;Aug-2025;64;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+623;Aug-2025;65;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+624;Aug-2025;66;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+625;Aug-2025;67;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+626;Aug-2025;68;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+627;Aug-2025;69;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+628;Aug-2025;70;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+629;Aug-2025;71;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+630;Aug-2025;72;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+631;Aug-2025;73;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+632;Aug-2025;74;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+633;Aug-2025;75;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+634;Aug-2025;76;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+635;Aug-2025;77;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+636;Aug-2025;78;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+637;Aug-2025;79;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+638;Aug-2025;80;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+639;Aug-2025;81;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+640;Sep-2025;1;Jarjak Coffee;Big;Wash Bunar - 1Kg;Bunar;26;280000;7280000
+641;Sep-2025;2;Jco;Big;Wash Java Halu - 1Kg;Java Halu;32;280000;8960000
+642;Sep-2025;3;Siloka;Big;Wash Taraju - 1Kg;Taraju;33;280000;9240000
+643;Sep-2025;4;Leisure;Big;Honey Parentas - 1Kg;Parentas;31;300000;9300000
+644;Sep-2025;5;Centro Coffee;Big;Natural Bunar - 1Kg;Bunar;32;320000;10240000
+645;Sep-2025;6;Todays Halaman;Big;Natural Taraju - 1Kg;Taraju;32;280000;8960000
+646;Sep-2025;7;Spill & Bites;Big;Wash Java Halu - 1Kg;Java Halu;31;280000;8680000
+647;Sep-2025;8;Sarasa Lab;Big;Wash Parentas - 1Kg;Parentas;34;320000;10880000
+648;Sep-2025;9;Todays Heritage;Big;Wash Java Halu - 1Kg;Java Halu;26;280000;7280000
+649;Sep-2025;10;Narasi;Big;Honey Parentas - 1Kg;Parentas;31;300000;9300000
+650;Sep-2025;11;Todays To Go;Big;Natural Parentas - 1Kg;Parentas;33;250000;8250000
+651;Sep-2025;12;Legend Coffee;Big;Honey Parentas - 1Kg;Parentas;25;300000;7500000
+652;Sep-2025;13;Medan Kopi;Medium;Wash Parentas - 1Kg;Parentas;18;320000;5760000
+653;Sep-2025;14;Taman Kopi;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;18;300000;5400000
+654;Sep-2025;15;Enjoy Coffee;Medium;Honey Bunar - 1Kg;Bunar;15;300000;4500000
+655;Sep-2025;16;Soto Kopi;Medium;Natural Parentas - 1Kg;Parentas;22;250000;5500000
+656;Sep-2025;17;Kopi Nusa;Medium;Honey Gunung Puntang - 1Kg;Gunung Puntang;21;300000;6300000
+657;Sep-2025;18;Kafe Asik;Medium;Wash Java Halu - 1Kg;Java Halu;22;280000;6160000
+658;Sep-2025;19;Finteresnest;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;17;360000;6120000
+659;Sep-2025;20;Qahwa Coffee;Medium;Natural Parentas - 1Kg;Parentas;16;250000;4000000
+660;Sep-2025;21;Vino Coffee;Medium;Wash Bunar - 1Kg;Bunar;16;280000;4480000
+661;Sep-2025;22;Nusantara Brew;Medium;Wash Bunar - 1Kg;Bunar;15;280000;4200000
+662;Sep-2025;23;Grand Mutia Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;21;280000;5880000
+663;Sep-2025;24;Roti Bakar Plus;Medium;Wash Java Halu - 1Kg;Java Halu;16;280000;4480000
+664;Sep-2025;25;Caspia;Medium;Natural Bunar - 1Kg;Bunar;19;320000;6080000
+665;Sep-2025;26;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+666;Sep-2025;27;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+667;Sep-2025;28;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+668;Sep-2025;29;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+669;Sep-2025;30;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+670;Sep-2025;31;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+671;Sep-2025;32;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+672;Sep-2025;33;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+673;Sep-2025;34;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+674;Sep-2025;35;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+675;Sep-2025;36;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+676;Sep-2025;37;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+677;Sep-2025;38;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+678;Sep-2025;39;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+679;Sep-2025;40;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+680;Sep-2025;41;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+681;Sep-2025;42;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+682;Sep-2025;43;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+683;Sep-2025;44;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+684;Sep-2025;45;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+685;Sep-2025;46;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+686;Sep-2025;47;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+687;Sep-2025;48;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+688;Sep-2025;49;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+689;Sep-2025;50;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+690;Sep-2025;51;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+691;Sep-2025;52;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+692;Sep-2025;53;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+693;Sep-2025;54;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+694;Sep-2025;55;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+695;Sep-2025;56;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+696;Sep-2025;57;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+697;Sep-2025;58;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+698;Sep-2025;59;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+699;Sep-2025;60;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+700;Sep-2025;61;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+701;Sep-2025;62;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+702;Sep-2025;63;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+703;Sep-2025;64;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+704;Sep-2025;65;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+705;Sep-2025;66;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+706;Sep-2025;67;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+707;Sep-2025;68;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+708;Sep-2025;69;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+709;Sep-2025;70;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+710;Sep-2025;71;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+711;Sep-2025;72;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+712;Sep-2025;73;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+713;Sep-2025;74;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+714;Sep-2025;75;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+715;Sep-2025;76;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+716;Sep-2025;77;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+717;Sep-2025;78;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+718;Sep-2025;79;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+719;Sep-2025;80;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+720;Oct-2025;1;Centro Coffee;Big;Honey Parentas - 1Kg;Parentas;35;300000;10500000
+721;Oct-2025;2;Sarasa Lab;Big;Robusta Regional - 1Kg;Regional;32;150000;4800000
+722;Oct-2025;3;Legend Coffee;Big;Wash Taraju - 1Kg;Taraju;35;280000;9800000
+723;Oct-2025;4;Todays To Go;Big;Blend Blend Regional - 1Kg;Blend Regional;26;170000;4420000
+724;Oct-2025;5;Leisure;Big;Wash Bunar - 1Kg;Bunar;30;280000;8400000
+725;Oct-2025;6;Todays Halaman;Big;Wash Taraju - 1Kg;Taraju;35;280000;9800000
+726;Oct-2025;7;Spill & Bites;Big;Honey Bunar - 1Kg;Bunar;29;300000;8700000
+727;Oct-2025;8;Siloka;Big;Wash Bunar - 1Kg;Bunar;29;280000;8120000
+728;Oct-2025;9;Narasi;Big;Wash Parentas - 1Kg;Parentas;31;320000;9920000
+729;Oct-2025;10;Todays Heritage;Big;Natural Bunar - 1Kg;Bunar;26;320000;8320000
+730;Oct-2025;11;Jco;Big;Natural Taraju - 1Kg;Taraju;31;280000;8680000
+731;Oct-2025;12;Jarjak Coffee;Big;Honey Taraju - 1Kg;Taraju;34;280000;9520000
+732;Oct-2025;13;Medan Kopi;Medium;Natural Taraju - 1Kg;Taraju;24;280000;6720000
+733;Oct-2025;14;Back & Brew;Medium;Honey Taraju - 1Kg;Taraju;18;280000;5040000
+734;Oct-2025;15;Qahwa Coffee;Medium;Wash Parentas - 1Kg;Parentas;24;320000;7680000
+735;Oct-2025;16;Kopi Nusa;Medium;Honey Parentas - 1Kg;Parentas;25;300000;7500000
+736;Oct-2025;17;Vino Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;25;280000;7000000
+737;Oct-2025;18;Warung Kopi;Medium;Honey Java Halu - 1Kg;Java Halu;25;300000;7500000
+738;Oct-2025;19;Nusantara Brew;Medium;Wash Gunung Puntang - 1Kg;Gunung Puntang;19;360000;6840000
+739;Oct-2025;20;Pagi Siang Malam;Medium;Wash Bunar - 1Kg;Bunar;15;280000;4200000
+740;Oct-2025;21;Soto Kopi;Medium;Honey Taraju - 1Kg;Taraju;17;280000;4760000
+741;Oct-2025;22;Roti Bakar Plus;Medium;Natural Gunung Puntang - 1Kg;Gunung Puntang;19;320000;6080000
+742;Oct-2025;23;Kafe Asik;Medium;Natural Parentas - 1Kg;Parentas;21;250000;5250000
+743;Oct-2025;24;Enjoy Coffee;Medium;Blend Blend Regional - 1Kg;Blend Regional;18;170000;3060000
+744;Oct-2025;25;Grand Mutia Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;23;280000;6440000
+745;Oct-2025;26;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+746;Oct-2025;27;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+747;Oct-2025;28;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+748;Oct-2025;29;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+749;Oct-2025;30;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+750;Oct-2025;31;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+751;Oct-2025;32;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+752;Oct-2025;33;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+753;Oct-2025;34;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+754;Oct-2025;35;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+755;Oct-2025;36;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+756;Oct-2025;37;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+757;Oct-2025;38;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+758;Oct-2025;39;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+759;Oct-2025;40;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+760;Oct-2025;41;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+761;Oct-2025;42;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+762;Oct-2025;43;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+763;Oct-2025;44;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+764;Oct-2025;45;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+765;Oct-2025;46;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+766;Oct-2025;47;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+767;Oct-2025;48;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+768;Oct-2025;49;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+769;Oct-2025;50;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+770;Oct-2025;51;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+771;Oct-2025;52;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+772;Oct-2025;53;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+773;Oct-2025;54;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+774;Oct-2025;55;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+775;Oct-2025;56;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+776;Oct-2025;57;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+777;Oct-2025;58;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+778;Oct-2025;59;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+779;Oct-2025;60;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+780;Oct-2025;61;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+781;Oct-2025;62;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+782;Oct-2025;63;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+783;Oct-2025;64;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+784;Oct-2025;65;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+785;Oct-2025;66;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+786;Oct-2025;67;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+787;Oct-2025;68;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+788;Oct-2025;69;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+789;Oct-2025;70;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+790;Oct-2025;71;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+791;Oct-2025;72;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+792;Oct-2025;73;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+793;Oct-2025;74;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+794;Oct-2025;75;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+795;Oct-2025;76;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+796;Oct-2025;77;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+797;Oct-2025;78;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+798;Oct-2025;79;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+799;Oct-2025;80;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+800;Nov-2025;1;Leisure;Big;Natural Bunar - 1Kg;Bunar;26;320000;8320000
+801;Nov-2025;2;Jco;Big;Honey Java Halu - 1Kg;Java Halu;28;300000;8400000
+802;Nov-2025;3;Legend Coffee;Big;Wash Java Halu - 1Kg;Java Halu;31;280000;8680000
+803;Nov-2025;4;Todays Halaman;Big;Wash Bunar - 1Kg;Bunar;30;280000;8400000
+804;Nov-2025;5;Spill & Bites;Big;Honey Bunar - 1Kg;Bunar;34;300000;10200000
+805;Nov-2025;6;Narasi;Big;Wash Java Halu - 1Kg;Java Halu;31;280000;8680000
+806;Nov-2025;7;Sarasa Lab;Big;Honey Java Halu - 1Kg;Java Halu;32;300000;9600000
+807;Nov-2025;8;Jarjak Coffee;Big;Honey Bunar - 1Kg;Bunar;29;300000;8700000
+808;Nov-2025;9;Siloka;Big;Wash Gunung Puntang - 1Kg;Gunung Puntang;30;360000;10800000
+809;Nov-2025;10;Todays Heritage;Big;Wash Parentas - 1Kg;Parentas;32;320000;10240000
+810;Nov-2025;11;Centro Coffee;Big;Wash Bunar - 1Kg;Bunar;28;280000;7840000
+811;Nov-2025;12;Todays To Go;Big;Honey Taraju - 1Kg;Taraju;26;280000;7280000
+812;Nov-2025;13;Pagi Siang Malam;Medium;Natural Taraju - 1Kg;Taraju;17;280000;4760000
+813;Nov-2025;14;Vino Coffee;Medium;Wash Parentas - 1Kg;Parentas;16;320000;5120000
+814;Nov-2025;15;Warung Kopi;Medium;Wash Parentas - 1Kg;Parentas;24;320000;7680000
+815;Nov-2025;16;Barco Hangout;Medium;Wash Parentas - 1Kg;Parentas;18;320000;5760000
+816;Nov-2025;17;Grand Mutia Coffee;Medium;Natural Parentas - 1Kg;Parentas;17;250000;4250000
+817;Nov-2025;18;Enjoy Coffee;Medium;Robusta Regional - 1Kg;Regional;19;150000;2850000
+818;Nov-2025;19;Chronos Coffee;Medium;Wash Java Halu - 1Kg;Java Halu;17;280000;4760000
+819;Nov-2025;20;Taman Kopi;Medium;Honey Parentas - 1Kg;Parentas;17;300000;5100000
+820;Nov-2025;21;Kafe Asik;Medium;Honey Java Halu - 1Kg;Java Halu;25;300000;7500000
+821;Nov-2025;22;Ujung Pandang;Medium;Robusta Regional - 1Kg;Regional;17;150000;2550000
+822;Nov-2025;23;Qahwa Coffee;Medium;Robusta Regional - 1Kg;Regional;20;150000;3000000
+823;Nov-2025;24;Back & Brew;Medium;Natural Taraju - 1Kg;Taraju;24;280000;6720000
+824;Nov-2025;25;Nusantara Brew;Medium;Natural Parentas - 1Kg;Parentas;15;250000;3750000
+825;Nov-2025;26;Caspia;Medium;Blend Blend Regional - 1Kg;Blend Regional;19;170000;3230000
+826;Nov-2025;27;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+827;Nov-2025;28;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+828;Nov-2025;29;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+829;Nov-2025;30;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+830;Nov-2025;31;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+831;Nov-2025;32;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+832;Nov-2025;33;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+833;Nov-2025;34;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+834;Nov-2025;35;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+835;Nov-2025;36;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+836;Nov-2025;37;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+837;Nov-2025;38;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+838;Nov-2025;39;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+839;Nov-2025;40;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+840;Nov-2025;41;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+841;Nov-2025;42;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+842;Nov-2025;43;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+843;Nov-2025;44;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+844;Nov-2025;45;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+845;Nov-2025;46;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+846;Nov-2025;47;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+847;Nov-2025;48;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+848;Nov-2025;49;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+849;Nov-2025;50;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+850;Nov-2025;51;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+851;Nov-2025;52;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+852;Nov-2025;53;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+853;Nov-2025;54;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+854;Nov-2025;55;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+855;Nov-2025;56;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+856;Nov-2025;57;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+857;Nov-2025;58;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+858;Nov-2025;59;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+859;Nov-2025;60;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+860;Nov-2025;61;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+861;Nov-2025;62;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+862;Nov-2025;63;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+863;Nov-2025;64;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+864;Nov-2025;65;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+865;Nov-2025;66;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+866;Nov-2025;67;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+867;Nov-2025;68;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+868;Nov-2025;69;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+869;Nov-2025;70;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+870;Nov-2025;71;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+871;Nov-2025;72;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+872;Nov-2025;73;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+873;Nov-2025;74;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+874;Nov-2025;75;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+875;Nov-2025;76;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+876;Dec-2025;1;Narasi;Big;Honey Bunar - 1Kg;Bunar;32;300000;9600000
+877;Dec-2025;2;Todays To Go;Big;Natural Taraju - 1Kg;Taraju;31;280000;8680000
+878;Dec-2025;3;Siloka;Big;Natural Parentas - 1Kg;Parentas;32;250000;8000000
+879;Dec-2025;4;Todays Heritage;Big;Honey Gunung Puntang - 1Kg;Gunung Puntang;31;300000;9300000
+880;Dec-2025;5;Spill & Bites;Big;Honey Java Halu - 1Kg;Java Halu;30;300000;9000000
+881;Dec-2025;6;Leisure;Big;Honey Bunar - 1Kg;Bunar;30;300000;9000000
+882;Dec-2025;7;Todays Halaman;Big;Honey Parentas - 1Kg;Parentas;30;300000;9000000
+883;Dec-2025;8;Sarasa Lab;Big;Wash Java Halu - 1Kg;Java Halu;35;280000;9800000
+884;Dec-2025;9;Jco;Big;Natural Bunar - 1Kg;Bunar;26;320000;8320000
+885;Dec-2025;10;Jarjak Coffee;Big;Natural Gunung Puntang - 1Kg;Gunung Puntang;26;320000;8320000
+886;Dec-2025;11;Centro Coffee;Big;Natural Gunung Puntang - 1Kg;Gunung Puntang;31;320000;9920000
+887;Dec-2025;12;Legend Coffee;Big;Honey Java Halu - 1Kg;Java Halu;30;300000;9000000
+888;Dec-2025;13;Vino Coffee;Medium;Honey Java Halu - 1Kg;Java Halu;24;300000;7200000
+889;Dec-2025;14;Barco Hangout;Medium;Wash Parentas - 1Kg;Parentas;17;320000;5440000
+890;Dec-2025;15;Nusantara Brew;Medium;Natural Bunar - 1Kg;Bunar;18;320000;5760000
+891;Dec-2025;16;Chronos Coffee;Medium;Honey Java Halu - 1Kg;Java Halu;20;300000;6000000
+892;Dec-2025;17;Grand Mutia Coffee;Medium;Honey Taraju - 1Kg;Taraju;16;280000;4480000
+893;Dec-2025;18;Finteresnest;Medium;Honey Parentas - 1Kg;Parentas;24;300000;7200000
+894;Dec-2025;19;Ujung Pandang;Medium;Natural Taraju - 1Kg;Taraju;21;280000;5880000
+895;Dec-2025;20;Soto Kopi;Medium;Robusta Regional - 1Kg;Regional;24;150000;3600000
+896;Dec-2025;21;Back & Brew;Medium;Honey Parentas - 1Kg;Parentas;15;300000;4500000
+897;Dec-2025;22;Enjoy Coffee;Medium;Blend Blend Regional - 1Kg;Blend Regional;19;170000;3230000
+898;Dec-2025;23;Medan Kopi;Medium;Wash Taraju - 1Kg;Taraju;20;280000;5600000
+899;Dec-2025;24;Roti Bakar Plus;Medium;Honey Taraju - 1Kg;Taraju;15;280000;4200000
+900;Dec-2025;25;Perorangan;Perorangan;Honey Gunung Puntang - 200gr;Gunung Puntang;1;100000;100000
+901;Dec-2025;26;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+902;Dec-2025;27;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+903;Dec-2025;28;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+904;Dec-2025;29;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+905;Dec-2025;30;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+906;Dec-2025;31;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+907;Dec-2025;32;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+908;Dec-2025;33;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+909;Dec-2025;34;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+910;Dec-2025;35;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+911;Dec-2025;36;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+912;Dec-2025;37;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+913;Dec-2025;38;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+914;Dec-2025;39;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+915;Dec-2025;40;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+916;Dec-2025;41;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+917;Dec-2025;42;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+918;Dec-2025;43;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+919;Dec-2025;44;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+920;Dec-2025;45;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+921;Dec-2025;46;Perorangan;Perorangan;Natural Gunung Puntang - 200gr;Gunung Puntang;1;105000;105000
+922;Dec-2025;47;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+923;Dec-2025;48;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+924;Dec-2025;49;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+925;Dec-2025;50;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+926;Dec-2025;51;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+927;Dec-2025;52;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+928;Dec-2025;53;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+929;Dec-2025;54;Perorangan;Perorangan;Natural Parentas - 200gr;Parentas;1;100000;100000
+930;Dec-2025;55;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+931;Dec-2025;56;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+932;Dec-2025;57;Perorangan;Perorangan;Wash Parentas - 200gr;Parentas;1;90000;90000
+933;Dec-2025;58;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+934;Dec-2025;59;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+935;Dec-2025;60;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+936;Dec-2025;61;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+937;Dec-2025;62;Perorangan;Perorangan;Honey Java Halu - 200gr;Java Halu;1;105000;105000
+938;Dec-2025;63;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+939;Dec-2025;64;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+940;Dec-2025;65;Perorangan;Perorangan;Wash Java Halu - 200gr;Java Halu;1;95000;95000
+941;Dec-2025;66;Perorangan;Perorangan;Honey Bunar - 200gr;Bunar;1;100000;100000
+942;Dec-2025;67;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+943;Dec-2025;68;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+944;Dec-2025;69;Perorangan;Perorangan;Wash Taraju - 200gr;Taraju;1;85000;85000
+945;Dec-2025;70;Perorangan;Perorangan;Wash Gunung Puntang - 200gr;Gunung Puntang;1;95000;95000
+946;Dec-2025;71;Perorangan;Perorangan;Natural Bunar - 200gr;Bunar;1;105000;105000
+947;Dec-2025;72;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+948;Dec-2025;73;Perorangan;Perorangan;Natural Taraju - 200gr;Taraju;1;95000;95000
+949;Dec-2025;74;Perorangan;Perorangan;Wash Bunar - 200gr;Bunar;1;95000;95000
+950;Dec-2025;75;Perorangan;Perorangan;Honey Parentas - 200gr;Parentas;1;95000;95000
+951;Dec-2025;76;Perorangan;Perorangan;Honey Taraju - 200gr;Taraju;1;90000;90000
+TOTAL;;;;;;;;2117740000;
