@@ -402,8 +402,7 @@ if page == "📊 Dashboard":
                 'R_squared': '{:.3f}',
                 'Volume': '{:,.0f}',
                 'Revenue': '{:,.0f}'
-            }),
-            width='stretch'
+            })
         )
     
     else:
@@ -418,7 +417,7 @@ if page == "📊 Dashboard":
         
         with col1:
             fig_heatmap = create_preference_heatmap(df_preference)
-            st.plotly_chart(fig_heatmap, use_container_width=True)
+            st.plotly_chart(fig_heatmap, width='stretch')
         
         with col2:
             st.markdown("**🔍 Key Insights:**")
@@ -460,10 +459,10 @@ if page == "📊 Dashboard":
             available_formats = {k: v for k, v in format_dict.items() if k in sorted_df.columns}
             st.dataframe(
                 sorted_df.style.format(available_formats),
-                use_container_width=True
+                width='stretch'
             )
         else:
-            st.dataframe(df_preference, use_container_width=True)
+            st.dataframe(df_preference, width='stretch')
     
     else:
         st.warning("⚠️ Data preferensi tidak tersedia")
@@ -480,7 +479,7 @@ if page == "📊 Dashboard":
             20,
             6
         )
-        st.plotly_chart(fig_projection, use_container_width=True)
+        st.plotly_chart(fig_projection, width='stretch')
     
     with col2:
         st.markdown("**📊 Projection Details:**")
@@ -527,7 +526,7 @@ elif page == "📈 Analisis Trend":
         
         st.markdown("---")
         st.markdown("### 📋 Detail Data")
-        st.dataframe(df_trend, use_container_width=True)
+        st.dataframe(df_trend, width='stretch')
 
 elif page == "❤️ Preferensi Customer":
     st.header("❤️ Analisis Preferensi Customer")
