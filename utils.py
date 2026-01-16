@@ -8,8 +8,15 @@ import numpy as np
 import streamlit as st
 from datetime import datetime, timedelta
 from constants import DATA_FILES, PRODUCTS, COLORS
-import plotly.graph_objects as go
-import plotly.express as px
+try:
+    import plotly.graph_objects as go
+    import plotly.express as px
+    PLOTLY_AVAILABLE = True
+except ImportError:
+    print("Warning: plotly is not installed. Some visualizations may not work. Install it using 'pip install plotly'")
+    PLOTLY_AVAILABLE = False
+    go = None
+    px = None
 
 # ==================== DATA LOADING ====================
 
@@ -127,6 +134,9 @@ def create_metric_card(label, value, unit=""):
 
 def create_trend_chart(trend_results):
     """Create interactive trend chart"""
+    if not PLOTLY_AVAILABLE:
+        return None
+    
     if trend_results.empty:
         return go.Figure()
     
@@ -179,6 +189,9 @@ def create_trend_chart(trend_results):
 
 def create_preference_heatmap(preference_results):
     """Create preference heatmap visualization"""
+    if not PLOTLY_AVAILABLE:
+        return None
+    
     if preference_results.empty:
         return go.Figure()
     
@@ -218,6 +231,9 @@ def create_preference_heatmap(preference_results):
 
 def create_revenue_projection(base_revenue, growth_rate, months=6):
     """Create revenue projection chart"""
+    if not PLOTLY_AVAILABLE:
+        return None
+    
     months_range = np.arange(0, months + 1)
     projected_revenue = base_revenue * (1 + growth_rate/100) ** months_range
     
