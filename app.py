@@ -8,7 +8,14 @@ streamlit run app.py
 
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
+
+# Handle potential import error for plotly
+try:
+    import plotly.graph_objects as go
+except ImportError:
+    print("Error: plotly is not installed. Please install it using 'pip install plotly'")
+    raise
+
 from constants import *
 from utils import *
 from datetime import datetime
